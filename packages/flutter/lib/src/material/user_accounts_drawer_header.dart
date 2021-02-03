@@ -185,8 +185,8 @@ class _AccountDetailsState extends State<_AccountDetails> with SingleTickerProvi
                       Icons.arrow_drop_down,
                       color: widget.arrowColor,
                       semanticLabel: widget.isOpen
-                          ? localizations.hideAccountsLabel
-                          : localizations.showAccountsLabel,
+                        ? localizations.hideAccountsLabel
+                        : localizations.showAccountsLabel,
                     ),
                   ),
                 ),
