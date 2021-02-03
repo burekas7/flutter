@@ -13,13 +13,13 @@ const Key avatarC = Key('C');
 const Key avatarD = Key('D');
 
 Future<void> pumpTestWidget(
-    WidgetTester tester, {
-      bool withName = true,
-      bool withEmail = true,
-      bool withOnDetailsPressedHandler = true,
-      Size otherAccountsPictureSize = const Size.square(40.0),
-      Size currentAccountPictureSize  = const Size.square(72.0),
-    }) async {
+  WidgetTester tester, {
+    bool withName = true,
+    bool withEmail = true,
+    bool withOnDetailsPressedHandler = true,
+    Size otherAccountsPictureSize = const Size.square(40.0),
+    Size currentAccountPictureSize  = const Size.square(72.0),
+  }) async {
   await tester.pumpWidget(
     MaterialApp(
       home: MediaQuery(
